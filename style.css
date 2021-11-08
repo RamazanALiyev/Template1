@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+    border-right: 1px solid #333;
+}
+li:last-child{
+    border-right: none;
+}
+li:last-child{
+    float: right;
+}
+li a{
+    color: white;
+    margin: 0 10px 0 10px;
+    padding: 14px 14px;
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+li:nth-child(n):hover{
+    background-color: rgba(190, 190, 190, 0.63);
+}
+li:last-child:hover{
+    background-color: red; 
+}
+/* .dropdown{
+    position: relative;
+} */
+header{
+    position: relative;
+}
+.dp-Content{
+    display: none;
+    position: absolute; 
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgb(160, 160, 160);
+}
+.dp-Content a{
+    color: black;
+    margin: 5px;
+}
+.dropdown:hover .dp-Content{
+    display: block !important;
+}
+.dropdown .dp-Content a:hover{
+    background-color: gray;
+}
+.band *{
+    text-align: center;
+}
+.band{
+    height: 650px;
+    margin: 0 250px 0 250px;
+}
+.band h1{
+    font-weight: 200;
+    padding-top: 60px;
+}
+.band h4{
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(150, 150, 150);
+}
+.band p{
+    text-align: justify;
+    padding: 0 30px 0 30px;
+    line-height: 22px;
+}
+.band .img{
+    display: flex;
+    justify-content: center;
+}
+.tour{
+    width: 100%;
+    height: 850px;
+    background-color: black;
+}
+.tour h1{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.tour h3{
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(139, 139, 139);
+    font-style: italic;
+}
+.tour .tour-content{
+    width: 700px;
+    height: 80px;
+    background-color: white;
+}
+.tour .tour-content{
+    margin: 0 300px 0 300px;
+    padding: 30px;
+}
+.tour .tour-content span{
+    margin: 0 10px 0 10px;
+}
+.tour .tour-content .tit{
+    color: rgb(139, 139, 139);
+}
+.tour .tour-content span:last-child{
+    float: right;
+    margin-right: 40px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+.tour .tourct{
+    margin: 30px 300px 0 300px;
+    display: flex;
+
+}
+.tour .tourct div{
+    background-color: white;
+    width: 240px;
+    height: 380px;
+    margin-right: 20px;
+}
+.tour div img{
+    width: 240px;
+    height: 180px;
+}
+.tour div img:hover{
+    opacity: 0.7;
+}
+.tour .tourct div .title{
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.tour .tourct div h2{
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(139, 139, 139);
+}
+.tour .tourct div p{
+    padding: 0 10px 0 10px;
+    margin-bottom: 25px;
+}
+.tour .tourct div a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-left: 10px;
+}
+.tour .tourct div a:hover{
+    background-color: lightgray;
+    color: black;
+}
+.contact{
+    width: 100%;
+    height: 350px;
+}
+.contact h1{
+    font-weight: 300;
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+}
+.contact h3{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(139, 139, 139);
+    text-align: center;
+}
+.contact .both{
+    display: flex;
+    padding: 20px 300px 0 300px;
+}
+.contact .both .left{
+    margin-right: 200px;
+}
+.contact .both .left span i{
+    margin: 10px 15px 0 0;
+}
+.contact .both .right{
+    margin-top: 10px;
+}
+.contact .both .right input{
+    height: 30px;
+}
+.contact .both .right input:focus{
+    outline: none;
+    border-radius: 5px;
+}
+.contact .both .right a{
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 13px 10px 13px;
+    background-color: black;
+    color: white;
+}
+.contact .both .right a:hover{
+    background-color: lightgray;
+    color: black;
+}
+.footer{
+    height: 150px;
+    text-align: center;
+    padding-top: 80px;
+}
+.footer span i{
+    font-size: 22px;
+    color: rgb(139, 139, 139);
+}
+.footer p{
+    color: rgb(139, 139, 139);
+}
+.footer p a{
+    color: rgb(139, 139, 139);
+    font-size: 18px;
+}
